@@ -1,0 +1,17 @@
+#menu {
+    list-style-type: none;
+}
+#menu li {
+    float: left;
+    text-align: center;
+}
+#menu li a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+#menu li a:hover {
+    background-color: aqua;
+    color: brown;
+}
