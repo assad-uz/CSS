@@ -1,6 +1,5 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
 }
 
 #menu {
@@ -20,7 +19,7 @@
     text-decoration: none;
     padding: 17px;
     display: inline-block;
-    color: aliceblue;
+    color: white ;
     /* display: flex;
     justify-content: center; */
     }

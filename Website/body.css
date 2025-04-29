@@ -1,0 +1,38 @@
+.container2 {
+    width: 100%;
+    float: left;
+    background-color: antiquewhite;
+}
+.sidebar {
+    width: 20%;
+    height: 400px;
+    float: left;
+    background-color: cornflowerblue;
+}
+.main {
+    width: 80%;
+    background-color: cadetblue;
+    float: left;
+}
+.banner {
+    width: 100%;
+    background-color: blueviolet;
+}
+.row1 {
+    width: 100%;
+    background-color: rgb(77, 50, 16);
+}
+.col1 {
+    width: 50%;
+    background-color: beige;
+    float: left;
+}
+.col2 {
+    width: 50%;
+    background-color: rgb(196, 196, 145);
+    float: left;
+}
+footer{
+    width: 100%;
+    background-color: burlywood;
+}
