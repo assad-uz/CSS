@@ -35,4 +35,5 @@
 footer{
     width: 100%;
     background-color: burlywood;
+    float: inline-end;
 }

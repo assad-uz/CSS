@@ -10,7 +10,6 @@
     <style> 
         * {
             margin: 0;
-            padding: 0;
         }
     </style>
 </head>
@@ -18,20 +17,27 @@
 <body>
     <div class="container">
         <div class="logo">
-            <img src="logo/p1.jpg" alt="">
+            <img src="img/p1.jpg" alt="">
             <br>
             <p>HALAL INDONESIA</p>
         </div>
         <div class="menu">
-            <ul id="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">E-mail</a></li>
-                <li><a href="#">Help</a></li>
-            </ul>
+            <a href="#">Home</a>
+            <a href="#">Contact Us</a>
+            <a href="#">E-mail</a>
+            <a href="#">Help</a>
+            <!-- Sub-Menu -->
+            <div class="dropdown-main"> 
+            <a href="#">Section</a>
+                <div class="dropdown-menu">
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Others</a>
+                </div>
+            </div>
         </div>
         <div class="search">
-            <!-- <br> -->
             <input type="text" placeholder="Search me"
                 style="border-radius: 10px; border-style: dotted; box-shadow: 3px 3px 2px cadetblue; width: 170px; height: 21px;">
             &nbsp; &nbsp; <button
