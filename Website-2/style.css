@@ -3,11 +3,11 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
-
 .container {
-    width: 100%;
     background-color: bisque;
+    width: 100%;
     overflow: hidden;
+    text-align: center;
 
 }
 
@@ -22,38 +22,117 @@
 .navbar {
     float: left;
     width: 51%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    column-gap: 30px;
-
+    display: block;
 }
-.dropdown{
-    position: relative;
-}
-.dropdown>.dropdown-content>a {
-    position: absolute;
-}
-
 
 .searchbar {
     float: left;
     width: 20%;
     margin-top: 14px;
-
 }
 
 .navbar a {
     text-decoration: none;
-    display: block;
-    padding: 15px;
+    padding: 17px;
     color: black;
     font-size: large;
     float: left;
 }
 
-a:hover {
+.navbar a:hover {
     background-color: burlywood;
     color: white;
+}
+.dropdown{
+    display: inline;
+    float: left;
+}
+.dropdown-content{
+    display: none;
+    top: 55px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+.dropdown-content a:hover {
+    background-color: brown;
+    color: aqua;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* body */
+.container2 {
+    width: 100%;
+    height: 400px;
+    border-color: black;
+}
+
+/* sidebar */
+.sidebar {
+    width: 15%;
+    background-color: yellowgreen;
+    float: left;
+    align-items: center;
+    height: 695px;
+}
+.sidebar a{
+
+    text-decoration: none;
+    float: left;
+    border: 1px solid yellow;
+    background-color: blanchedalmond;
+    padding: 5px;
+}
+/* right-content */
+.right-content{
+    width: 85%;
+    float: left;
+}
+
+/* both */
+.sidebar .right-content{
+    height: 400px;
+    background-color: black;
+}
+/* banner */
+.banner{
+    width: 100%;
+    background-color: aquamarine;
+}
+/* bottom-banner */
+.bottom-banner{
+    width: 100%;
+}
+.l{
+    background-color: rgba(0, 0, 255, 0.479);
+    width: 50%;
+    float: left;
+    height:50px;
     
+}
+.r{
+    background-color: rgba(222, 184, 135, 0.733);
+    width: 50%;
+    float: left;
+    height:50px;
+}
+/* footer */
+.footer{
+    float: left;
+    width: 100%;
+    height: 35px;
+    background-color: lightblue;
+    align-items: center;
+    text-align: center;
 }
