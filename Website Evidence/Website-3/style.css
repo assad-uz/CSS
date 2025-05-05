@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    background-color: #833471;
+    overflow: hidden;
+    text-align: center;
+}
+.logo{
+    width: 25%;
+    float: left;
+    margin-top: 9px;
+}
+.menu{
+    width: 55%;
+    float: left;
+    
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 19px;
+    display: inline-block;
+    margin-left: 35px;
+}
+.menu a:hover{
+    background-color: #1289A7;
+    color: yellow;
+}
+.searchbox{
+    width: 20%;
+    float: left;
+    margin-top: 16px;
+}
+
+/* container-2 */
+.container2{
+    width: 100%;
+}
+.sidebar{
+    width: 15%;
+    float: left;
+    background-color: #ff9f1a;
+    text-align: left;
+    height: 664px
+}
+.sidebar-menu a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 2px solid;
+}
+.sidebar-menu a:hover{
+    background-color: #1289A7;
+    color: black;
+}
+.main{
+    width: 85%;
+    float: left;
+}
+.banner{
+    width: 100%;
+}
+.bottom{
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+
+}
+.bottom div.l{
+    width: 50%;
+    float: left;
+    background-color: #4b4b4b;
+    height: 50px;
+}
+.bottom div.r{
+    width: 50%;
+    float: left;
+    background-color: #7d5fff;
+    height: 50px;
+}
+.bottom .l p{
+    color: white;
+    position: relative;
+    top: 25%;
+    left: 0;
+}
+.bottom .r p{
+    color: white;
+    position: relative;
+    top: 25%;
+    left: 0;
+}
+footer{
+    width: 100%;
+    background-color: #ff793f;
+    float: left;
+    height: 35px;
+}
+footer p{
+    position: relative;
+    top: 25%;
+    left: 50%;
+    color: white;
+}
